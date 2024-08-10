@@ -1,3 +1,25 @@
-body {
-    background-color: blue;
+:root {
+    --branding-color: #f5f5f5;
+    --heading-font-family: recursive;
+}
+h1 {
+    font-family: var(--heading-font-family);
+    font-weight: 800;
+    font-size: 80px;
+    padding-bottom: 30px;
+
+}
+.hero {
+   text-align: center;
+   background: var(--branding-color);
+}
+
+.main-lions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centered-image {
+    width: 1000px;
+    border-radius: 10px;
 }
