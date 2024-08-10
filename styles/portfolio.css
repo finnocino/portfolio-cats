@@ -6,8 +6,8 @@ h1 {
     font-family: var(--heading-font-family);
     font-weight: 800;
     font-size: 80px;
+    line-height: 1.5;
     padding-bottom: 30px;
-
 }
 .hero {
    text-align: center;
@@ -20,6 +20,17 @@ h1 {
   align-items: center;
 }
 .centered-image {
-    width: 1000px;
+    width: 900px;
     border-radius: 10px;
+}
+
+@media (max-width: 560px) {
+    h1 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .centered-image {
+        max-width: 100%;
+        margin-top: 20px;
+    }
 }
