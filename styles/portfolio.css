@@ -13,6 +13,10 @@ h2, h5 {
     text-align: center;
     font-family: var(--heading-font-family);
 }
+h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
 
 .hero {
    text-align: center;
@@ -34,14 +38,9 @@ h2, h5 {
 .about-my-cats-container {
     display: grid;
     margin: 30px 40px 30px 30px;
-    border: 1px solid gray;
-    padding: 10px;
-    border-radius: 5px;
-    background: #ebf2f4;
-
 }
 .cleo-photo {
-   max-width: fit-content;
+   width: 400px;
     height: 380px;
     padding: 10px;
 }
@@ -66,7 +65,7 @@ h2, h5 {
     font-family: var(--heading-font-family);
 }
 .finn-photo {
-    max-width: fit-content;
+    width: 400px;
     height: 380px;
     padding: 10px;
 }
@@ -80,16 +79,28 @@ h2, h5 {
         max-width: 100%;
         margin-top: 60px;
     }
+    h2 {
+        font-size: 30px;
+        font-weight: 500;
+    }
     .facts-cleo {
         text-align: left;
     }
     .about-cleo h5 {
         text-align: left;
     }
+    .about-cleo p {
+        text-align: left;
+        padding-bottom: 20px;
+    }
     .about-finn p {
         text-align: left;
     }
     .facts-cleo, .facts-finn {
         font-size: 15px;
+    }
+    .cleo-photo, .finn-photo {
+        display: block;
+        margin: 0 auto;
     }
 }
