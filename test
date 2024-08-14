@@ -1,0 +1,16 @@
+/*.about-my-cats-container {
+    display: flex;
+}*/
+
+/*container
+/*row
+/*col-4
+/*img
+/*paragraph
+
+
+<div class="d-flex flex-row">
+  <div class="card mx-auto">...Your Content...</div>
+  <div class="card mx-auto">...Your Content...</div>
+  <div class="card mx-auto">...Your Content...</div>
+</div>
