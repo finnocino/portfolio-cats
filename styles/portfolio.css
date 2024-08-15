@@ -12,12 +12,16 @@ h1 {
 h2, h5 {
     text-align: center;
     font-family: var(--heading-font-family);
+    font-weight: 700;
 }
 h2 {
   font-size: 40px;
-  font-weight: 400;
 }
-
+p {
+    font-family: var(--heading-font-family);
+    font-size: 16px;
+    font-weight: 700;
+}
 .hero {
    text-align: center;
    background: var(--branding-color);
@@ -69,6 +73,9 @@ h2 {
     height: 380px;
     padding: 10px;
 }
+.small-cats-container {
+    margin: 0 60px;
+}
 @media (max-width: 560px) {
     h1 {
         font-size: 30px;
@@ -103,4 +110,17 @@ h2 {
         display: block;
         margin: 0 auto;
     }
-}
+    .heading-2 {
+        font-size: 25px;
+        font-weight: 400px;
+    }
+    .card-body p {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    h5 {
+        font-size: 12px;
+        font-weight: 400;
+    
+    }
+}   
