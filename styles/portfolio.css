@@ -19,7 +19,7 @@ h2 {
 }
 p {
     font-family: var(--heading-font-family);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
 }
 .hero {
@@ -113,9 +113,10 @@ p {
     .heading-2 {
         font-size: 25px;
         font-weight: 400px;
+        margin-top: 20px;
     }
     .card-body p {
-        font-size: 13px;
+        font-size: 12px;
         font-weight: 400;
     }
     h5 {
