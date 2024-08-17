@@ -1,7 +1,7 @@
 :root {
     --branding-color: #816095;
     --heading-font-family: recursive;
-    --responsive-paragraph-color: white;
+    --text-decoration: underline;
 }
 h1 {
     font-family: var(--heading-font-family);
@@ -54,11 +54,12 @@ body {
     height: 380px;
     padding: 10px;
 }
-.about-cleo h5 {
+.about-cleo  h5 {
     text-align: left;
     padding: 10px 2px;
     font-family: var(--heading-font-family);
     font-weight: 800;
+    text-decoration: var(--text-decoration);
 }
 .about-cleo p {
     font-size: 15px;
@@ -69,6 +70,10 @@ body {
     padding:  10px 2px;
     font-family: var(--heading-font-family);
     font-weight: 800;
+    text-decoration: var(--text-decoration);
+}
+.about-cleo {
+    color: black;
 }
 .about-finn p {
     font-size: 15px;
@@ -103,24 +108,29 @@ body {
     .active {
         color: var(--branding-color) !important;
     }
-    }
     .about-cleo h5 {
         text-align: left;
-        color: var(--responsive-paragraph-color);
+        color: beige;
+        font-size: 20px;
     }
     .about-cleo p {
         text-align: left;
         padding-bottom: 36px;
-        color: var(--responsive-paragraph-color);
+        color: beige;
+    }
+    .about-finn h5 {
+        text-align: left;
+        color: beige;
+        font-size: 20px;
     }
     .about-finn p {
         text-align: left;
-        color: var(--responsive-paragraph-color);
+        padding-bottom: 20px;
+        color: beige;
     }
     .facts-cleo, .facts-finn {
         font-size: 14px;
         text-align: left;
-        color: var(--responsive-paragraph-color);
     }
     .cleo-photo, .finn-photo {
         display: block;
@@ -138,6 +148,5 @@ body {
     h5 {
         font-size: 12px;
         font-weight: 400;
-    
     }
-}   
+}
