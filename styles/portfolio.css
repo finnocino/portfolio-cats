@@ -91,6 +91,21 @@ body {
     font-family: var(--heading-font-family);
     font-size: 15px;
 }
+.external-links {
+    background: #F8F9FA;
+    padding: 10px 20px;
+}
+.external-links :hover {
+    color: var(--branding-color);
+    transition:  all 100ms ease-in-out;
+}
+.external-links a {
+    color: rgb(70, 67, 67);
+    font-size: 16px;
+    padding: 2px 20px;
+    text-decoration: none;
+    font-family: var(--heading-font-family);
+}
 @media (max-width: 560px) {
     h1 {
         font-size: 30px;
@@ -98,8 +113,9 @@ body {
         margin-top: 20px;
     }
     .centered-image {
-        max-width: 100%;
-        margin-top: 60px;
+        height: 300px;
+        width: 500px;
+        margin: 40px;
     }
     h2 {
         font-size: 30px;
@@ -148,5 +164,8 @@ body {
     h5 {
         font-size: 12px;
         font-weight: 400;
+    }
+    .external-links a{
+        font-size: 12px;
     }
 }
