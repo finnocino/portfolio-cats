@@ -23,7 +23,10 @@ p {
     font-size: 14px;
     font-weight: 700;
 }
-
+footer {
+    background: #F8F9FA;
+    padding: 5px 20px;
+}
 .active {
     color: var(--branding-color) !important;
     font-weight: 500;
@@ -47,7 +50,7 @@ body {
 }
 .about-my-cats-container {
     display: grid;
-    margin: 30px 40px 30px 30px;
+    margin: 90px;
 }
 .cleo-photo {
    width: 400px;
@@ -91,10 +94,6 @@ body {
     font-family: var(--heading-font-family);
     font-size: 15px;
 }
-.external-links {
-    background: #F8F9FA;
-    padding: 10px 20px;
-}
 .external-links :hover {
     color: var(--branding-color);
     transition:  all 100ms ease-in-out;
@@ -102,13 +101,10 @@ body {
 .external-links a {
     color: rgb(70, 67, 67);
     font-size: 16px;
-    padding: 2px 20px;
+    padding: 5px 20px;
     text-decoration: none;
     font-family: var(--heading-font-family);
     font-weight: 500;
-}
-.my-cats {
-    margin-top: 150px;
 }
 @media (max-width: 560px) {
     h1 {
@@ -171,5 +167,9 @@ body {
     }
     .external-links a{
         font-size: 12px;
+    }
+    .repository {
+        font-size: 10px;
+        font-family: var(--heading-font-family);
     }
 }
