@@ -1,6 +1,7 @@
 :root {
-    --branding-color: #f5f5f5;
+    --branding-color: #816095;
     --heading-font-family: recursive;
+    --responsive-paragraph-color: white;
 }
 h1 {
     font-family: var(--heading-font-family);
@@ -22,11 +23,11 @@ p {
     font-size: 14px;
     font-weight: 700;
 }
-.hero {
-   text-align: center;
-   background: var(--branding-color);
-}
 
+.active {
+    color: var(--branding-color) !important;
+    font-weight: 500;
+}
 .main-lions {
   display: flex;
   justify-content: center;
@@ -38,6 +39,11 @@ p {
 }
 .portfolio-logo {
     width: 120px;
+}
+body {
+    background-image: url("/jura-bakx-IwcRAzMUBmE-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .about-my-cats-container {
     display: grid;
@@ -76,6 +82,10 @@ p {
 .small-cats-container {
     margin: 0 60px;
 }
+.nav-link {
+    font-family: var(--heading-font-family);
+    font-size: 15px;
+}
 @media (max-width: 560px) {
     h1 {
         font-size: 30px;
@@ -90,21 +100,27 @@ p {
         font-size: 30px;
         font-weight: 500;
     }
-    .facts-cleo {
-        text-align: left;
+    .active {
+        color: var(--branding-color) !important;
+    }
     }
     .about-cleo h5 {
         text-align: left;
+        color: var(--responsive-paragraph-color);
     }
     .about-cleo p {
         text-align: left;
-        padding-bottom: 20px;
+        padding-bottom: 36px;
+        color: var(--responsive-paragraph-color);
     }
     .about-finn p {
         text-align: left;
+        color: var(--responsive-paragraph-color);
     }
     .facts-cleo, .facts-finn {
-        font-size: 15px;
+        font-size: 14px;
+        text-align: left;
+        color: var(--responsive-paragraph-color);
     }
     .cleo-photo, .finn-photo {
         display: block;
