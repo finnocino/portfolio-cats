@@ -105,16 +105,15 @@ body {
     text-decoration: none;
     font-family: var(--heading-font-family);
     font-weight: 500;
-
+}
 @media (max-width: 560px) {
     h1 {
-        font-size: 30px;
+        font-size: 35px;
         line-height: 2;
         margin-top: 20px;
     }
     .centered-image {
-        height: 300px;
-        width: 500px;
+       max-width: 100%;
         margin: 40px;
     }
     h2 {
